@@ -7,8 +7,14 @@
   "engines": {
     "node": ">=16.17.0"
   },
-  "repository": "git@github.com:d-leb/swc-webpack",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/d-leb/swc-webpack.git"
+  },
   "packageManager": "yarn@3.3.1",
+  "publishConfig": {
+    "access": "public"
+  },
   "files": [
     "bin",
     "defaults",
