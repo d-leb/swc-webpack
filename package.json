@@ -16,7 +16,9 @@
   ],
   "bin": "bin/swc-webpack.mjs",
   "scripts": {
-    "lint": "yarn prettier",
+    "eslint": "eslint --ext mjs scripts bin --max-warnings=0",
+    "eslint:fix": "eslint --ext mjs scripts bin --fix",
+    "lint": "yarn eslint && yarn prettier",
     "prettier": "prettier --check 'scripts/**/*.mjs' 'bin/**/*.mjs'",
     "prettier:fix": "prettier --write 'scripts/**/*.mjs' 'bin/**/*.mjs'"
   },
@@ -36,6 +38,10 @@
     "webpack-dev-server": "^4.11.1"
   },
   "devDependencies": {
+    "eslint": "^8.31.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.26.0",
     "prettier": "^2.8.1"
   }
 }
