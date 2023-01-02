@@ -17,6 +17,7 @@ __metadata:
     dotenv-webpack: ^8.0.1
     html-webpack-plugin: ^5.5.0
     imports-loader: ^4.0.1
+    prettier: ^2.8.1
     svg-url-loader: ^8.0.0
     swc-loader: ^0.2.3
     webpack: ^5.75.0
@@ -2836,6 +2837,15 @@ __metadata:
   version: 2.3.1
   resolution: "picomatch@npm:2.3.1"
   checksum: 050c865ce81119c4822c45d3c84f1ced46f93a0126febae20737bd05ca20589c564d6e9226977df859ed5e03dc73f02584a2b0faad36e896936238238b0446cf
+  languageName: node
+  linkType: hard
+
+"prettier@npm:^2.8.1":
+  version: 2.8.1
+  resolution: "prettier@npm:2.8.1"
+  bin:
+    prettier: bin-prettier.js
+  checksum: 4f21a0f1269f76fb36f54e9a8a1ea4c11e27478958bf860661fb4b6d7ac69aac1581f8724fa98ea3585e56d42a2ea317a17ff6e3324f40cb11ff9e20b73785cc
   languageName: node
   linkType: hard
 
