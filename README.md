@@ -117,10 +117,19 @@ yarn install
 
 Be sure to install recommended extensions for VSCode. The project workspace settings are already pre-configured. This will allow VCode to automatically format your code.
 
+## Linting
+
+Github will automatically lint the project before allowing a PR to be merged. You can manually run all tests by running the following script.
+
+```
+yarn lint
+```
+
 ## Built With
 
 - [Browserslist](https://github.com/browserslist/browserslist) - Used to determine the browser support for a project
 - [DotEnv Webpack](https://github.com/mrsteele/dotenv-webpack/) - Environment variables webpack plugin
+- [ESLint](https://eslint.org/) - Code quality inspector
 - [Prettier](https://prettier.io/) - An opinionated code formatter
 - [SWC](https://swc.rs/) - SWC is an extensible Rust-based platform used for both compilation and bundling
 - [Webpack](https://webpack.js.org/) - Static module bundler
