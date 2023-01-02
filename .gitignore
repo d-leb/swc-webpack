@@ -7,6 +7,9 @@
 /.yarn/unplugged
 /.yarn/install-state.gz
 
+# publishing
+package.tgz
+
 # testing
 /coverage
 
