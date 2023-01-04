@@ -6,7 +6,8 @@ The following versions of the project are currently being supported with securit
 
 | Version | Supported          |
 | ------- | ------------------ |
-| < 1.0   | :white_check_mark: |
+| < 1.0   | :x:                |
+| >= 1.0  | :white_check_mark: |
 
 ## Reporting a Vulnerability
 
@@ -15,7 +16,7 @@ user information, please report it to me through coordinated disclosure.
 
 Please do not report security vulnerabilities through public GitHub issues, discussions, or pull requests.
 
-Instead, please send an email to myself at github[@]david-leblanc.com.
+Instead, please report the vulnerability using the [security advisories](https://github.com/d-leb/swc-webpack/security/advisories) page.
 
 Please include as much of the information listed below as you can to help me better understand and resolve the issue:
 

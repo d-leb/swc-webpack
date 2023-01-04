@@ -1,4 +1,4 @@
-import { copyFileSync, existsSync, readdir } from 'fs'
+import { copyFileSync, existsSync, mkdirSync, readdir } from 'fs'
 import path from 'path'
 
 import { handleError, paths } from './utils.mjs'
@@ -15,6 +15,7 @@ const copyFiles = (from, to, ignore = []) => {
 
       if (!ignore.includes(file)) {
         if (!existsSync(destFile)) {
+          mkdirSync(to, { recursive: true })
           copyFileSync(sourceFile, destFile)
           console.log(` ${file} copied.`)
         } else {
