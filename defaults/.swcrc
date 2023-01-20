@@ -12,9 +12,9 @@
         "runtime": "automatic"
       }
     },
-    "target": "es2016"
+    "target": "es2020"
   },
-  "isModule": false,
+  "isModule": true,
   "minify": true,
   "sourceMaps": "inline"
 }
