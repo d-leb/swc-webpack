@@ -1,6 +1,6 @@
 {
   "name": "@d-leb/swc-webpack",
-  "version": "1.2.6",
+  "version": "1.2.7",
   "description": "A library for compiling TypeScript and JavaScript using SWC and Webpack",
   "author": "David LeBlanc <github@david-leblanc.com>",
   "license": "MIT",
