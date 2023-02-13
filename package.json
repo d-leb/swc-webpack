@@ -40,7 +40,7 @@
     "svg-url-loader": "8.0.0",
     "swc-loader": "0.2.3",
     "webpack": "5.75.0",
-    "webpack-bundle-analyzer": "4.7.0",
+    "webpack-bundle-analyzer": "4.8.0",
     "webpack-dev-server": "4.11.1"
   },
   "devDependencies": {
