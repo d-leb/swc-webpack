@@ -6,8 +6,8 @@ The following versions of the project are currently being supported with securit
 
 | Version | Supported          |
 | ------- | ------------------ |
-| < 1.0   | :x:                |
-| >= 1.0  | :white_check_mark: |
+| < 1.3   | :x:                |
+| >= 1.3  | :white_check_mark: |
 
 ## Reporting a Vulnerability
 
