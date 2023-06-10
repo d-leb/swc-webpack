@@ -35,7 +35,7 @@
     "compression-webpack-plugin": "10.0.0",
     "cross-spawn": "7.0.3",
     "dotenv-webpack": "8.0.1",
-    "html-webpack-plugin": "5.5.1",
+    "html-webpack-plugin": "5.5.2",
     "imports-loader": "4.0.1",
     "svg-url-loader": "8.0.0",
     "swc-loader": "0.2.3",
