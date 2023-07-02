@@ -41,7 +41,7 @@
     "swc-loader": "0.2.3",
     "webpack": "5.85.1",
     "webpack-bundle-analyzer": "4.9.0",
-    "webpack-dev-server": "4.15.0"
+    "webpack-dev-server": "4.15.1"
   },
   "devDependencies": {
     "eslint": "^8.44.0",
